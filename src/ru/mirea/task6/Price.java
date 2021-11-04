@@ -40,7 +40,7 @@ class Tablet implements Priceable {
     private String prise;
 
     public String getPrice(){
-        System.out.printf("Цена: '%s'\n", prise);
+       System.out.printf("Цена: '%s'\n", prise);
         return prise;
     }
 
