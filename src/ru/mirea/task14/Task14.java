@@ -24,7 +24,8 @@ public class Task14 {
         {
             card1 = first.pop();
             card2 = second.pop();
-            if ((card1 > card2) || (card1 ==0 && card2!=0))
+            if ((card1 > card2) && (card1 != 9 && card2== 0) || (card1 == 0 && card2 == 9))
+
             {
                 first.add(card1);
                 first.add(card2);
