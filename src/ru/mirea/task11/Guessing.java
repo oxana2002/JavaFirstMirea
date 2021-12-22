@@ -11,7 +11,7 @@ public class Guessing extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(Guessing.class.getResource("Guessing.fxml"));
-        primaryStage.setTitle("Угадай число");
+        primaryStage.setTitle("Guessing");
         primaryStage.setScene(new Scene(fxmlLoader.load()));
         primaryStage.setResizable(false);
         primaryStage.show();
