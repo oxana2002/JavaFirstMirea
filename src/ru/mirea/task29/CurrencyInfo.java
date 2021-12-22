@@ -1,51 +1,50 @@
 package ru.mirea.task29;
-
 import java.io.Serializable;
 import java.util.Arrays;
 
 public class CurrencyInfo implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private String[] territoriesInfo;
-    private String[] resourcesInfo;
-    private String[] diplomacyInfo;
+    private String[] clientsInfo;
+    private String[] employeeInfo;
+    private String[] bankServicesInfo;
 
-    public CurrencyInfo(String[] territoriesInfo, String[] resourcesInfo, String[] diplomacyInfo){
-        this.territoriesInfo = territoriesInfo;
-        this.resourcesInfo = resourcesInfo;
-        this.diplomacyInfo = diplomacyInfo;
+    public CurrencyInfo(String[] clientsInfo, String[] employeeInfo, String[] bankServicesInfo){
+        this.clientsInfo = clientsInfo;
+        this.employeeInfo = employeeInfo;
+        this.bankServicesInfo = bankServicesInfo;
     }
 
-    public String[] getTerritoriesInfo() {
-        return territoriesInfo;
+    public String[] getClientsInfo() {
+        return clientsInfo;
     }
 
-    public void setTerritoriesInfo(String[] territoriesInfo) {
-        this.territoriesInfo = territoriesInfo;
+    public void setClientsInfo(String[] clientsInfo) {
+        this.clientsInfo = clientsInfo;
     }
 
-    public String[] getResourcesInfo() {
-        return resourcesInfo;
+    public String[] getEmployeeInfo() {
+        return employeeInfo;
     }
 
-    public void setResourcesInfo(String[] resourcesInfo) {
-        this.resourcesInfo = resourcesInfo;
+    public void setEmployeeInfo(String[] employeeInfo) {
+        this.employeeInfo = employeeInfo;
     }
 
-    public String[] getDiplomacyInfo() {
-        return diplomacyInfo;
+    public String[] getBankServicesInfo() {
+        return bankServicesInfo;
     }
 
-    public void setDiplomacyInfo(String[] diplomacyInfo) {
-        this.diplomacyInfo = diplomacyInfo;
+    public void setBankServicesInfoInfo(String[] bankServicesInfo) {
+        this.bankServicesInfo = bankServicesInfo;
     }
 
     @Override
     public String toString() {
-        return "SavedGame{" +
-                "territoriesInfo=" + Arrays.toString(territoriesInfo) +
-                ", resourcesInfo=" + Arrays.toString(resourcesInfo) +
-                ", diplomacyInfo=" + Arrays.toString(diplomacyInfo) +
+        return "CurrencyInfo{" +
+                "clientsInfo=" + Arrays.toString(clientsInfo) +
+                ",\n employeeInfo=" + Arrays.toString(employeeInfo) +
+                ",\n bankServicesInfo=" + Arrays.toString(bankServicesInfo) +
                 '}';
     }
 }
