@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task32</OriginalElement>
+  <nodes>
+    <node x="112.0" y="235.0">ru.mirea.task32.ApplePay</node>
+    <node x="25.0" y="155.0">ru.mirea.task32.MoneyStrategy</node>
+    <node x="209.0" y="80.0">ru.mirea.task32.BankOperation01</node>
+    <node x="0.0" y="80.0">ru.mirea.task32.BankOperation02</node>
+    <node x="0.0" y="235.0">ru.mirea.task32.Cash</node>
+    <node x="108.5" y="0.0">ru.mirea.task32.BankSystemTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task32.BankOperation01" target="ru.mirea.task32.BankSystemTest" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="302.5" y="55.0" />
+      <point x="198.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="ru.mirea.task32.BankOperation02" target="ru.mirea.task32.BankSystemTest" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="94.5" y="55.0" />
+      <point x="198.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="ru.mirea.task32.Cash" target="ru.mirea.task32.MoneyStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="46.0" y="210.0" />
+      <point x="110.5" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="ru.mirea.task32.ApplePay" target="ru.mirea.task32.MoneyStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="175.0" y="210.0" />
+      <point x="110.5" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="198.0" y="132.5" />
+  <SelectedNodes>
+    <node>ru.mirea.task32.ApplePay</node>
+    <node>ru.mirea.task32.MoneyStrategy</node>
+    <node>ru.mirea.task32.BankOperation01</node>
+    <node>ru.mirea.task32.BankOperation02</node>
+    <node>ru.mirea.task32.Cash</node>
+    <node>ru.mirea.task32.BankSystemTest</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
