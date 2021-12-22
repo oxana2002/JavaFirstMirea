@@ -27,10 +27,10 @@ public class Task15 {
     }
 
     public static void print_menu() {
-        System.out.println("\n1.Реализовать запись в файл введённой с клавиатуры информации.");
-        System.out.println("2.Реализовать вывод информации из файла на экран.");
-        System.out.println("3.Заменить информацию в файле на информацию, введённую с клавиатуры.");
-        System.out.println("4.Добавить в конец исходного файла текст, введённый с клавиатуры.");
+        System.out.println("\n1.Перезаписать файл");
+        System.out.println("2.Вывести файл");
+        System.out.println("3.Заменить информацию в файле");
+        System.out.println("4.Добавить в конец файла");
         System.out.println("0.Выход");
         System.out.print("Выбор: ");
     }
@@ -115,7 +115,7 @@ public class Task15 {
                         data = sc.nextLine();
                         writer.write(System.getProperty("line.separator") + data);
                         writer.close();
-                        System.out.println("Данные записаны в файла.");
+                        System.out.println("Данные записаны в конец файла.");
                     }
                     catch(IOException ex){
 

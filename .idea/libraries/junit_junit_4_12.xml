@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="JavaFirstMirea">
+  <library name="junit:junit:4.12">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../SDK'S/javafx-sdk-17.0.0.1/lib" />
     </CLASSES>
